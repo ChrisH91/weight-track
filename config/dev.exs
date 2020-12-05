@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :weight_track, WeightTrack.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   database: "weight_track_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
